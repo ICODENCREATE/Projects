@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Projects.iml" filepath="$PROJECT_DIR$/.idea/Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/Web Chat App/Web Chat App.iml" filepath="$PROJECT_DIR$/Web Chat App/Web Chat App.iml" />
       <module fileurl="file://$PROJECT_DIR$/Web Chat App/website/_pycache_/_pycache_.iml" filepath="$PROJECT_DIR$/Web Chat App/website/_pycache_/_pycache_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web Chat App/website/application/application.iml" filepath="$PROJECT_DIR$/Web Chat App/website/application/application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web Chat App/website/application/static/static.iml" filepath="$PROJECT_DIR$/Web Chat App/website/application/static/static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web Chat App/website/application/templates/templates.iml" filepath="$PROJECT_DIR$/Web Chat App/website/application/templates/templates.iml" />
       <module fileurl="file://$PROJECT_DIR$/Web Chat App/website/website.iml" filepath="$PROJECT_DIR$/Web Chat App/website/website.iml" />
     </modules>
   </component>
