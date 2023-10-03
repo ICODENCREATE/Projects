@@ -13,6 +13,8 @@ def create_app():
         from .filters import _slice
         from .database import DataBase
 
+
+
         # REGISTER ROUTES
         app.register_blueprint(view, url_prefix="/")
 

@@ -13,7 +13,7 @@ socketio = SocketIO(app)  # used for user communication
 # COMMUNICATION FUNCTIONS
 
 
-@socketio.on('event')
+@app.route('/event', methods=['GET', 'POST'])
 def handle_my_custom_event(json, methods=['GET', 'POST']):
     """
     handles saving messages once received from web server
@@ -32,4 +32,4 @@ def handle_my_custom_event(json, methods=['GET', 'POST']):
 
 # MAINLINE
 if __name__ == "__main__":  # start the web server
-    socketio.run(app, debug=True, host=str(config.Config.SERVER))
+    socketio.run(app, debug=True, host=str(config.Config.SERVER), allow_unsafe_werkzeug=True)
