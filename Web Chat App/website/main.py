@@ -14,12 +14,12 @@ socketio = SocketIO(app)  # used for user communication
 
 
 @app.route('/event', methods=['GET', 'POST'])
-def handle_my_custom_event(json, methods=['GET', 'POST']):
+def handle_my_custom_event():
+    import json
     """
     handles saving messages once received from web server
     and sending message to other clients
     :param json: json
-    :param methods: POST GET
     :return: None
     """
     data = dict(json)
